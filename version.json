@@ -1,0 +1,24 @@
+﻿{
+    "version":  "0.11.1",
+    "tag_name":  "v0.11.1",
+    "release_date":  "2026-11-05",
+    "release_notes":  "## [0.11.1](https://github.com/cqb0709/DNS-TGM200/compare/v0.11.0...v0.11.1) (2026-11-05)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **ci:** pass token to action-gh-release for public repo ([f9a0de3](https://github.com/cqb0709/DNS-TGM200/commit/f9a0de3f5a584f50b25e5e068abbd4d8f43a9073))",
+    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.11.1",
+    "files":  {
+                  "setup":  {
+                                "name":  "dns_tgm200-windows-v0.11.1-setup.exe",
+                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.11.1/dns_tgm200-windows-v0.11.1-setup.exe",
+                                "sha256":  "05b6c071cd8668aba3caa8df98b814d6351f0849cd44c19ca6c42e065e49b0c2"
+                            },
+                  "portable":  {
+                                   "name":  "dns_tgm200-windows-v0.11.1-portable.exe",
+                                   "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.11.1/dns_tgm200-windows-v0.11.1-portable.exe",
+                                   "sha256":  "a715ed9bcd4e5e992bbc56137ad02b42d0e8f8ee02623615d692020688587f9a"
+                               },
+                  "zip":  {
+                              "name":  "dns_tgm200-windows-v0.11.1.zip",
+                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.11.1/dns_tgm200-windows-v0.11.1.zip",
+                              "sha256":  "dc54511993441fc0aa5a20b2ab41cea2cf6eca32ef9cb0335fe18255c7ad310a"
+                          }
+              }
+}
