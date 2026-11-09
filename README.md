@@ -2,7 +2,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x%20(Desktop)-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-v0.11.1-2EA44F)](https://github.com/cqb0709/DNS-TGM200/releases)
+[![Version](https://img.shields.io/badge/Version-v0.12.0-2EA44F)](https://github.com/cqb0709/DNS-TGM200/releases)
 [![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
 
 **DNS-TGM200**은 산업용 탱크 게이징(Tank Gauging) 시스템을 위한 **Windows PC 전용 실시간 모니터링 및 운영 관리 소프트웨어**입니다.  
