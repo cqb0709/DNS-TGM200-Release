@@ -1,24 +1,24 @@
 ﻿{
-    "version":  "0.11.1",
-    "tag_name":  "v0.11.1",
-    "release_date":  "2026-11-05",
-    "release_notes":  "## [0.11.1](https://github.com/cqb0709/DNS-TGM200/compare/v0.11.0...v0.11.1) (2026-11-05)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **ci:** pass token to action-gh-release for public repo ([f9a0de3](https://github.com/cqb0709/DNS-TGM200/commit/f9a0de3f5a584f50b25e5e068abbd4d8f43a9073))",
-    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.11.1",
+    "version":  "0.12.0",
+    "tag_name":  "v0.12.0",
+    "release_date":  "2026-11-09",
+    "release_notes":  "## [0.12.0](https://github.com/cqb0709/DNS-TGM200/compare/v0.11.1...v0.12.0) (2026-11-09)\r\n\r\n\r\n### Features\r\n\r\n* **report:** 주간 운영 보고서 PDF/미리보기에 차트 및 막대 그래프 추가 및 레이아웃 순서 개선 ([670390d](https://github.com/cqb0709/DNS-TGM200/commit/670390d7983c9cac4ea04255ca6a53bab92f3f5f))\r\n* **ui:** 토스트 드래그 이동 및 상/하단 가변 스택 구현, 알람 일괄 해제 로직 개선 ([ed0cd01](https://github.com/cqb0709/DNS-TGM200/commit/ed0cd01e4ed3d1bb03cc7566bb31138fb9ca368d))",
+    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.12.0",
     "files":  {
                   "setup":  {
-                                "name":  "dns_tgm200-windows-v0.11.1-setup.exe",
-                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.11.1/dns_tgm200-windows-v0.11.1-setup.exe",
-                                "sha256":  "05b6c071cd8668aba3caa8df98b814d6351f0849cd44c19ca6c42e065e49b0c2"
+                                "name":  "dns_tgm200-windows-v0.12.0-setup.exe",
+                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.12.0/dns_tgm200-windows-v0.12.0-setup.exe",
+                                "sha256":  "6b553663ff5115b1da00c5dce3894f7611b12e07cdb47b2540b010dba74f0ed1"
                             },
                   "portable":  {
-                                   "name":  "dns_tgm200-windows-v0.11.1-portable.exe",
-                                   "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.11.1/dns_tgm200-windows-v0.11.1-portable.exe",
-                                   "sha256":  "a715ed9bcd4e5e992bbc56137ad02b42d0e8f8ee02623615d692020688587f9a"
+                                   "name":  "dns_tgm200-windows-v0.12.0-portable.exe",
+                                   "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.12.0/dns_tgm200-windows-v0.12.0-portable.exe",
+                                   "sha256":  "998b99f610a628631dc38e47579d41af32f26eb359189964dbc8a578391e4608"
                                },
                   "zip":  {
-                              "name":  "dns_tgm200-windows-v0.11.1.zip",
-                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.11.1/dns_tgm200-windows-v0.11.1.zip",
-                              "sha256":  "dc54511993441fc0aa5a20b2ab41cea2cf6eca32ef9cb0335fe18255c7ad310a"
+                              "name":  "dns_tgm200-windows-v0.12.0.zip",
+                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.12.0/dns_tgm200-windows-v0.12.0.zip",
+                              "sha256":  "91d086ad5dc0386fb1ba4aef40b76e3b4439b9432be25ab3bb7d801997a74ef6"
                           }
               }
 }
