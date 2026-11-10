@@ -2,7 +2,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.x%20(Desktop)-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-v0.12.0-2EA44F)](https://github.com/cqb0709/DNS-TGM200/releases)
+[![Version](https://img.shields.io/badge/Version-v0.13.0-2EA44F)](https://github.com/cqb0709/DNS-TGM200/releases)
 [![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
 
 **DNS-TGM200**은 산업용 탱크 게이징(Tank Gauging) 시스템을 위한 **Windows PC 전용 실시간 모니터링 및 운영 관리 소프트웨어**입니다.  
@@ -48,13 +48,20 @@ TGM200 현장 계측 장비와의 실시간 양방향 통신, 정밀 재고 마�
 * **고해상도(4K/QHD) 대응**: `AppScaleWrapper`를 통한 실시간 UI 표시 배율(80% ~ 200%) 스케일링
 * **표준 로컬 로깅 (`AppLogger`)**: `%LOCALAPPDATA%\DNS-TGM200\logs` 경로에 일자별 자동 롤링 로그 파일 보관 및 감사 로그 기록
 
-### 7. 스마트 인앱 자동 업데이트 (In-App Auto-Update)
+### 7. 스마트 인앱 핫 스왑 자동 업데이트 (Staging Hot-Swap Auto-Update)
 
-* **배포 형태별 맞춤 업데이트 (`UpdateService`)**:
-  * **Inno Setup 설치형**: 임시 폴더로 신규 Setup.exe 백그라운드 다운로드 ➔ SHA-256 무결성 검증 ➔ `/SILENT` 무인 교체 설치 및 자동 재실행
-  * **무설치 포터블(7-Zip SFX) / ZIP**: 릴리즈 다운로드 공식 웹페이지로 자동 연동
-* **비침습적 2시간 스케줄러**: 앱 진입 3초 후 1회 확인(팝업) + 상시 가동 중에는 2시간마다 조용히 체크하여 **상단 헤더에 부드럽게 깜빡이는 다운로드 아이콘 버튼만 활성화** (작업자 방해 원천 방지)
-* **네트워크 복원력 (Fail-Safe)**: 불안정한 네트워크 환경을 고려하여 다운로드 및 무결성 검사 실패 시 **최대 3회 자동 재시도 루프** 탑재
+* **무음 백그라운드 프리페치 (Silent Pre-fetch & Staging)**:
+  * 2시간 주기 스케줄러(및 기동 3초 후)로 최신 버전을 감지하면 팝업을 띄우지 않고 조용히 백그라운드 다운로드 ➔ SHA-256 무결성 검증 ➔ 임시 폴더 사전 압축 해제까지 100% 완료
+  * 준비 완료 시에만 상단 헤더에 점멸하는 업데이트 아이콘 활성화 (작업자 방해 제로)
+* **초고속 핫 스왑 (Sub-second Instant Restart)**:
+  * Inno Setup 설치형 및 ZIP: `robocopy` 기반으로 설치 폴더 파일들을 0.3초 만에 덮어쓰고 즉시 재실행
+  * 단일 포터블(7-Zip SFX): 원본 `.exe` 파일 1개만 단독 교체 후 재기동
+  * 한글/공백 사용자명 계정 완벽 지원 (UTF-8 `chcp 65001` 및 안전 따옴표 래핑)
+* **무클릭 자동 스왑 (Zero-Click Next Launch)**:
+  * 사용자가 업데이트 버튼을 누르지 않고 평소처럼 창 [X] 버튼을 눌러 닫더라도, 앱 종료 시점에 파일만 조용히 교체해 두고 종료 ➔ **다음에 앱을 켤 때는 이미 최신 버전으로 자동 구동** (VS Code / Chrome 방식)
+* **복원력 및 장애 복구 (Fail-Safe & Recovery)**:
+  * 다운로드 3회 실패 시 다이얼로그 `[다시 시도]` 버튼 제공
+  * 교체 실패(권한 부족 등) 시 구버전 자동 복구 기동 및 화면 토스트 알림 표시
 
 ---
 
