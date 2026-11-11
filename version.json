@@ -1,24 +1,24 @@
 ﻿{
-    "version":  "0.13.2",
-    "tag_name":  "v0.13.2",
-    "release_date":  "2026-11-10",
-    "release_notes":  "## [0.13.2](https://github.com/cqb0709/DNS-TGM200/compare/v0.13.1...v0.13.2) (2026-11-10)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **update:** 핫 스왑 프로세스 대기 프리징 해결 및 무음 백그라운드 실행 적용 ([81274f8](https://github.com/cqb0709/DNS-TGM200/commit/81274f8c4a4db0ad3f8cd317caacfc508a466d8a))",
-    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.13.2",
+    "version":  "0.14.0",
+    "tag_name":  "v0.14.0",
+    "release_date":  "2026-11-11",
+    "release_notes":  "## [0.14.0](https://github.com/cqb0709/DNS-TGM200/compare/v0.13.2...v0.14.0) (2026-11-11)\r\n\r\n\r\n### Features\r\n\r\n* 자동 업데이트 핫스왑 안정화, True Silent 모드 적용 및 게이트웨이 ID 동적화 ([ac46080](https://github.com/cqb0709/DNS-TGM200/commit/ac460802c30e293bc47b954f1df5f3a596001cf4))",
+    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.14.0",
     "files":  {
                   "setup":  {
-                                "name":  "dns_tgm200-windows-v0.13.2-setup.exe",
-                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.13.2/dns_tgm200-windows-v0.13.2-setup.exe",
-                                "sha256":  "529212c4d32e8db39bde51ec05b1c5913c956d9c0136b21bf2f0b1ec633dfe89"
+                                "name":  "dns_tgm200-windows-v0.14.0-setup.exe",
+                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.14.0/dns_tgm200-windows-v0.14.0-setup.exe",
+                                "sha256":  "01d1256cde313ac736c5385266c9db7b8f52d1effd593d4024cc16b3784282ba"
                             },
                   "portable":  {
-                                   "name":  "dns_tgm200-windows-v0.13.2-portable.exe",
-                                   "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.13.2/dns_tgm200-windows-v0.13.2-portable.exe",
-                                   "sha256":  "31fe0491ba148865e60b4e4ab3b6b82ff35ac50e32a585821a31a1903643efc7"
+                                   "name":  "dns_tgm200-windows-v0.14.0-portable.exe",
+                                   "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.14.0/dns_tgm200-windows-v0.14.0-portable.exe",
+                                   "sha256":  "a44e89e4ca2bb0a34d93ac4adf208b70d0239dd1e041b59fef64e18e33a22571"
                                },
                   "zip":  {
-                              "name":  "dns_tgm200-windows-v0.13.2.zip",
-                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.13.2/dns_tgm200-windows-v0.13.2.zip",
-                              "sha256":  "095d7db752a222ec6248cb5664e7a554fd15f35892f5c3ca0acd95367c3ae737"
+                              "name":  "dns_tgm200-windows-v0.14.0.zip",
+                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.14.0/dns_tgm200-windows-v0.14.0.zip",
+                              "sha256":  "800b395bcaa0d0fd631ac2982558849ff7db8ff9c1de1596376b991cffa29f0d"
                           }
               }
 }
