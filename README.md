@@ -1,7 +1,7 @@
 ﻿# DNS-TGM200 Tank Gauging PC Monitoring Software
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-v0.13.2-2EA44F)](https://github.com/cqb0709/DNS-TGM200-Release/releases)
+[![Version](https://img.shields.io/badge/Version-v0.14.0-2EA44F)](https://github.com/cqb0709/DNS-TGM200-Release/releases)
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-orange?logo=github)](https://github.com/cqb0709/DNS-TGM200-Release/releases/latest)
 
 **DNS-TGM200**은 산업용 탱크 게이징(Tank Gauging) 시스템을 위한 **Windows PC 전용 실시간 모니터링 및 운영 관리 소프트웨어**입니다.  
