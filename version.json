@@ -1,24 +1,19 @@
 ﻿{
-    "version":  "0.15.0",
-    "tag_name":  "v0.15.0",
-    "release_date":  "2026-11-11",
-    "release_notes":  "## [0.15.0](https://github.com/cqb0709/DNS-TGM200/compare/v0.14.0...v0.15.0) (2026-11-11)\r\n\r\n\r\n### Features\r\n\r\n* 창 닫기 UX 개선 및 WebSocket 포트 자동 대체 로직 추가 ([09bc15b](https://github.com/cqb0709/DNS-TGM200/commit/09bc15b2a7b4681584326c1aae34398f17c636fe))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **tanks, history, data:** 데이터 폴백 왜곡 제거, 동적 유종 밀도 연동 및 최근 입출고 로직 수정 ([808b4df](https://github.com/cqb0709/DNS-TGM200/commit/808b4dfaea48cf4fd2a83705774d2c4d84b7635c))",
-    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.15.0",
+    "version":  "0.16.0",
+    "tag_name":  "v0.16.0",
+    "release_date":  "2026-11-17",
+    "release_notes":  "## [0.16.0](https://github.com/cqb0709/DNS-TGM200/compare/v0.15.0...v0.16.0) (2026-11-17)\r\n\r\n\r\n### Features\r\n\r\n* **admin:** 엔지니어 유지보수 도구(Admin App) 분리 및 프로토콜 송수신 도구 구현 ([7308df6](https://github.com/cqb0709/DNS-TGM200/commit/7308df6ce53c941a81bfb60c690606ad97032cd6))\r\n* **release:** 포터블 배포 일시 보류 및 인앱 업데이트 비활성화 플래그 적용 ([62b8804](https://github.com/cqb0709/DNS-TGM200/commit/62b880496d0ccc2811bbcc6115032d8084f9032f))\r\n* 알람 조치내용 선택 팝업 및 다중 선택 해제 모드 구현 ([d7c9a76](https://github.com/cqb0709/DNS-TGM200/commit/d7c9a76742dc67a4e55330951163dbb650362c26))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **report:** 일자별 재고 보고서 Code 54+52 결합 및 15°C 환산유량 정밀 계산 적용 ([4bac3c0](https://github.com/cqb0709/DNS-TGM200/commit/4bac3c0c38c891d7272d3836c76f0ea046208d72))",
+    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.16.0",
     "files":  {
                   "setup":  {
-                                "name":  "dns_tgm200-windows-v0.15.0-setup.exe",
-                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.15.0/dns_tgm200-windows-v0.15.0-setup.exe",
-                                "sha256":  "895895f6a046d7eecd57677d2daf22c976540028b2f319c406e8c235c7703918"
+                                "name":  "dns_tgm200-windows-v0.16.0-setup.exe",
+                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.16.0/dns_tgm200-windows-v0.16.0-setup.exe",
+                                "sha256":  "bfcbd6d2e034898761b3744c9e7c87e6536c0d3cec2e80b43cfa897b8a499af3"
                             },
-                  "portable":  {
-                                   "name":  "dns_tgm200-windows-v0.15.0-portable.exe",
-                                   "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.15.0/dns_tgm200-windows-v0.15.0-portable.exe",
-                                   "sha256":  "d9a2c5bec003c65c2ebf50f5d7fce8169aa53be5e6f998fd7c9e50d553701163"
-                               },
                   "zip":  {
-                              "name":  "dns_tgm200-windows-v0.15.0.zip",
-                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.15.0/dns_tgm200-windows-v0.15.0.zip",
-                              "sha256":  "2fe35bab20836507fff70403d992ec890d3aca50b6fb20f5ecd71da8100a9131"
+                              "name":  "dns_tgm200-windows-v0.16.0.zip",
+                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.16.0/dns_tgm200-windows-v0.16.0.zip",
+                              "sha256":  "1f4e937f75b87fc3edf3f36af3bd23d741107e44a81cdb800e768271adda4293"
                           }
               }
 }
