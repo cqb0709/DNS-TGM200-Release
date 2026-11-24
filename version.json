@@ -1,19 +1,19 @@
 ﻿{
-    "version":  "0.16.2",
-    "tag_name":  "v0.16.2",
+    "version":  "0.17.0",
+    "tag_name":  "v0.17.0",
     "release_date":  "2026-11-24",
-    "release_notes":  "## [0.16.2](https://github.com/cqb0709/DNS-TGM200/compare/v0.16.1...v0.16.2) (2026-11-24)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* WebSocket 동시 호출 직렬화 및 비동기 타이밍·공유 상태 경합 결함 6건 수정 ([c17abcb](https://github.com/cqb0709/DNS-TGM200/commit/c17abcb0fe83f5fe9dc5d7ae5f1a73c469ea877a))",
-    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.16.2",
+    "release_notes":  "## [0.17.0](https://github.com/cqb0709/DNS-TGM200/compare/v0.16.2...v0.17.0) (2026-11-24)\r\n\r\n\r\n### Features\r\n\r\n* 로그아웃 프로토콜(Code 9) 신설 및 앱 종료·유지보수 도구 연동 ([73c87e5](https://github.com/cqb0709/DNS-TGM200/commit/73c87e598aefb0e7ebac89b9053f2793299a5dd8))",
+    "release_page_url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/tag/v0.17.0",
     "files":  {
                   "setup":  {
-                                "name":  "dns_tgm200-windows-v0.16.2-setup.exe",
-                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.16.2/dns_tgm200-windows-v0.16.2-setup.exe",
-                                "sha256":  "60b41fe567e1c9af35c58c9301595ed1c27faab65d4f9cc68aac28001b594318"
+                                "name":  "dns_tgm200-windows-v0.17.0-setup.exe",
+                                "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.17.0/dns_tgm200-windows-v0.17.0-setup.exe",
+                                "sha256":  "347a710d935d7676df41918190e3cc2ddd18b3fd4e40fa0c9f99ab50fcbe4cec"
                             },
                   "zip":  {
-                              "name":  "dns_tgm200-windows-v0.16.2.zip",
-                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.16.2/dns_tgm200-windows-v0.16.2.zip",
-                              "sha256":  "0d2b22f1fc75020e641faec5698953e72229c0242b7bb8921f90e76c88190b42"
+                              "name":  "dns_tgm200-windows-v0.17.0.zip",
+                              "url":  "https://github.com/cqb0709/DNS-TGM200-Release/releases/download/v0.17.0/dns_tgm200-windows-v0.17.0.zip",
+                              "sha256":  "dff46173b2d4d678be6e210adab2c268f593d370f5001961d3b3b053a258c6bf"
                           }
               }
 }
