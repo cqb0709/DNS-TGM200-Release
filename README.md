@@ -1,7 +1,7 @@
 ﻿# DNS-TGM200 Tank Gauging PC Monitoring Software
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-v0.17.0-2EA44F)](https://github.com/cqb0709/DNS-TGM200-Release/releases)
+[![Version](https://img.shields.io/badge/Version-v0.17.1-2EA44F)](https://github.com/cqb0709/DNS-TGM200-Release/releases)
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-orange?logo=github)](https://github.com/cqb0709/DNS-TGM200-Release/releases/latest)
 
 **DNS-TGM200**은 산업용 탱크 게이징(Tank Gauging) 시스템을 위한 **Windows PC 전용 실시간 모니터링 및 운영 관리 소프트웨어**입니다.  
@@ -44,7 +44,7 @@
 ### 6. 고해상도 디스플레이 및 다중 모니터 완벽 지원
 
 * **화면 스케일링**: Full HD, QHD, 4K 등 다양한 모니터 해상도에 맞춰 80% ~ 200% 배율 자유 조절
-* **관제실 전용 모드**: 듀얼/트리플 모니터 환경에서 특정 화면 지정 실행 및 키오스크 잠금 모드 지원
+* **관제실 전용 모드**: 듀얼/트리플 모니터 환경에서 특정 화면 지정 실행 및 전체화면 모드 지원
 
 ---
 
@@ -87,14 +87,13 @@ DNS-TGM200은 업무를 방해하지 않는 스마트 인앱 업데이트 엔진
 
 ## 💻 관제실 환경 설정 및 실행 옵션 (Command-Line Arguments)
 
-`dns_tgm200.exe` 실행 시 바로가기 또는 명령 프롬프트에 옵션을 추가하여 관제실 전용 키오스크 모드, 디스플레이 위치, 통신 포트 등을 제어할 수 있습니다.
+`dns_tgm200.exe` 실행 시 바로가기 또는 명령 프롬프트에 옵션을 추가하여 관제실 전체화면 모드, 디스플레이 위치, 통신 포트 등을 제어할 수 있습니다.
 
 ### 📌 주요 지원 옵션 목록
 
 | 카테고리 | 옵션명 (Option Flag) | 기본값 | 기능 설명 및 효과 |
 | :--- | :--- | :---: | :--- |
-| **디스플레이** | `--kiosk` | 해제 | **관제실 전용 잠금 모드** (타이틀바 제거 + 전체화면 + 항상 위 고정) |
-| | `--fullscreen`, `-f` | 해제 | 작업표시줄까지 덮는 전체화면 모드로 앱 실행 |
+| **디스플레이** | `--fullscreen`, `-f` | 해제 | 작업표시줄까지 덮는 전체화면 모드로 앱 실행 (타이틀바 제거) |
 | | `--scale=<배율>` | `auto` | UI 표시 배율 강제 지정 (예: `--scale=1.25`, `--scale=1.5`) |
 | | `--display=<번호>` | `1` | 다중 모니터 환경에서 실행할 모니터 번호 지정 (1부터 시작, 예: `--display=2`) |
 | | `--minimized` | 해제 | 앱을 작업표시줄로 최소화한 상태로 백그라운드 시작 |
@@ -111,16 +110,16 @@ DNS-TGM200은 업무를 방해하지 않는 스마트 인앱 업데이트 엔진
 
 ### 💡 실무 팁: 24시간 관제용 바로가기 만들기
 
-관제실 PC에서 항상 **2번 모니터 전체화면(키오스크 모드)**으로 자동 실행되도록 설정하려면:
+관제실 PC에서 항상 **2번 모니터 전체화면 모드**로 자동 실행되도록 설정하려면:
 
 1. 바탕화면의 `DNS-TGM200` 바로가기 아이콘을 마우스 우클릭한 후 **[속성]**을 클릭합니다.
 2. **[대상(T)]** 입력칸 맨 끝에 한 칸 띄우고 아래와 같이 옵션을 추가합니다:
 
    ```text
-   "C:\Program Files\DNS-TGM200\dns_tgm200.exe" --kiosk --display=2
+   "C:\Program Files\DNS-TGM200\dns_tgm200.exe" --fullscreen --display=2
    ```
 
-3. **[확인]**을 누르고 바로가기를 실행하면 타이틀바 없이 깔끔한 전용 모니터링 화면으로 시작됩니다.
+3. **[확인]**을 누르고 바로가기를 실행하면 타이틀바 없이 깔끔한 전체화면 모니터링 화면으로 시작됩니다.
 
 ---
 
