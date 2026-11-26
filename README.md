@@ -1,7 +1,7 @@
 ﻿# DNS-TGM200 Tank Gauging PC Monitoring Software
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6?logo=windows&logoColor=white)](https://microsoft.com/windows)
-[![Version](https://img.shields.io/badge/Version-v0.17.1-2EA44F)](https://github.com/cqb0709/DNS-TGM200-Release/releases)
+[![Version](https://img.shields.io/badge/Version-v0.17.2-2EA44F)](https://github.com/cqb0709/DNS-TGM200-Release/releases)
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-orange?logo=github)](https://github.com/cqb0709/DNS-TGM200-Release/releases/latest)
 
 **DNS-TGM200**은 산업용 탱크 게이징(Tank Gauging) 시스템을 위한 **Windows PC 전용 실시간 모니터링 및 운영 관리 소프트웨어**입니다.  
@@ -38,7 +38,7 @@
 ### 5. 신뢰도 높은 보안 통신 & 안정성
 
 * **실시간 장비 연동**: TGM200 계측 장비와 안정적인 실시간 소켓 통신 및 자동 재연결
-* **안전한 데이터 보안**: 통신 인증 키 암호화 보관 및 세션 암호화 적용으로 데이터 위변조 방지
+* **안전한 데이터 보안**: 세션 토큰 기반 AES-128 암호화 통신 적용
 * **24시간 연속 운용**: 장기간 중단 없이 운용 가능한 데스크톱 전용 최적화
 
 ### 6. 고해상도 디스플레이 및 다중 모니터 완벽 지원
@@ -98,7 +98,6 @@ DNS-TGM200은 업무를 방해하지 않는 스마트 인앱 업데이트 엔진
 | | `--display=<번호>` | `1` | 다중 모니터 환경에서 실행할 모니터 번호 지정 (1부터 시작, 예: `--display=2`) |
 | | `--minimized` | 해제 | 앱을 작업표시줄로 최소화한 상태로 백그라운드 시작 |
 | **통신/네트워크** | `--port=<포트>`, `-p <포트>` | `8888` | 계측 통신 WebSocket 포트 변경 (포트 충돌 방지 및 다중 실행용) |
-| | `--handshake-key=<키>` | - | 8자리 통신 핸드셰이크 키를 시스템 보안 저장소에 즉시 주입/등록 |
 | **진단/유지보수** | `--debug` | 해제 | 디버그 모드 강제 활성화 (로그 레벨 `debug` 전환 및 상세 출력) |
 | | `--log-level=<level>` | `info` | 파일 로그 기록 수준 강제 지정 (`debug`, `info`, `warning`, `error`, `fatal`) |
 | | `--log-console` | 해제 | 명령 프롬프트(터미널) 콘솔 창으로 실시간 로그 동시 출력 |
@@ -129,7 +128,7 @@ DNS-TGM200은 업무를 방해하지 않는 스마트 인앱 업데이트 엔진
 
 * **GUI & Window System**: Flutter Desktop (BSD-3-Clause), `window_manager` (MIT)
 * **Document & Reporting**: `pdf` & `printing` (Apache-2.0), `excel` (MIT)
-* **Security & Network**: `flutter_secure_storage` (BSD-3-Clause), `encrypt` (BSD-3-Clause), `mailer` (MIT)
+* **Security & Network**: `encrypt` (BSD-3-Clause), `mailer` (MIT)
 * **Official Font**: Paperlogy Font (SIL OFL 1.1)
 
 ---
